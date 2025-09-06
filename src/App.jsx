@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-500 to-blue-500 flex flex-col items-center justify-center p-6">
       <div className="bg-white/20 backdrop-blur-lg border border-white/30 rounded-2xl shadow-lg w-full max-w-md p-6">
-        <h2 className="text-white text-2xl mb-4">ISTDP AI Therapist</h2>
+        <h2 className="text-white text-2xl mb-4">Hamvaar Terapist</h2>
         <div className="h-64 overflow-y-auto mb-4 p-2 bg-white/10 rounded-lg">
           {messages.map((m, i) => (
             <div
@@ -59,3 +59,4 @@ function App() {
 }
 
 export default App;
+
