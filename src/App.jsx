@@ -1,3 +1,7 @@
+supabase.from("messages").insert([{ role: "test", content: "hello from console" }])
+  .then(res => console.log("Insert test result:", res));
+
+
 import { useState } from "react";
 
 function App() {
